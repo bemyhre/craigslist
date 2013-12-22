@@ -1,0 +1,26 @@
+error: could not lock config file H:\/.gitconfig: No such file or directory
+error: could not lock config file H:\/.gitconfig: No such file or directory
+    while executing
+"exec {C:/Program Files/Git/libexec/git-core/git-config.exe} --global --add gui.recentrepo C:/Users/bmyhre/Desktop/Testing/projects/skeleton"
+    ("eval" body line 1)
+    invoked from within
+"eval exec $opt $cmdp $args"
+    (procedure "git" line 23)
+    invoked from within
+"git config --global --add gui.recentrepo $path"
+    (procedure "_append_recentrepos" line 16)
+    invoked from within
+"_append_recentrepos [pwd]"
+    (procedure "_git_init" line 17)
+    invoked from within
+"_git_init $this"
+    (procedure "choose_repository::_do_new2" line 5)
+    invoked from within
+"choose_repository::_do_new2 ::choose_repository::__o1::__d"
+    invoked from within
+".buttons.next invoke "
+    invoked from within
+".buttons.next instate !disabled { .buttons.next invoke } "
+    invoked from within
+".buttons.next instate pressed { .buttons.next state !pressed; .buttons.next instate !disabled { .buttons.next invoke } } "
+    (command bound to event)
